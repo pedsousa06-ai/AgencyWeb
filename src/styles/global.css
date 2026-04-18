@@ -29,13 +29,13 @@
     --font-size-caption: 14px; /*Variavel de Tamanho da fonte */
 
     /* --- WEIGHT --- */
-    --font-weight-h1:600; /* Variavel Espessura da fonte*/
-    --font-weight-h2:600; /* Variavel Espessura da fonte*/
-    --font-weight-h3:600; /* Variavel Espessura da fonte*/
-    --font-weight-h4:550; /* Variavel Espessura da fonte*/
-    --font-weight-body:400; /* Variavel Espessura da fonte*/
-    --font-weight-button-:700; /* Variavel Espessura da fonte*/
-    --font-weight-caption:400; /* Variavel Espessura da fonte*/
+    --font-weight-h1: 600; /* Variavel Espessura da fonte*/
+    --font-weight-h2: 600; /* Variavel Espessura da fonte*/
+    --font-weight-h3: 600; /* Variavel Espessura da fonte*/
+    --font-weight-h4: 550; /* Variavel Espessura da fonte*/
+    --font-weight-body: 400; /* Variavel Espessura da fonte*/
+    --font-weight-button-: 700; /* Variavel Espessura da fonte*/
+    --font-weight-caption: 400; /* Variavel Espessura da fonte*/
 
     /* - FAMILY - */
     --font-family-primary: "Poppins", sans-serif ;  /* Variavel familia da fonte*/
