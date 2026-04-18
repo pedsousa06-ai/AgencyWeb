@@ -1,42 +1,106 @@
 @import url("./global.css");
 
-header{
-    display: flex;/* Para que o grupo fique ao lado do outro*/
-    justify-content: space-between; /*Colocar nas extremidas*/
-    align-items: center; /* Centralizando na vertical*/
-    padding: 30px; /* Espaçamento interno*/
-    border-bottom: 0.7px solid var(--color-gray-3); /*Borda  inferior*/
+/* ---- HEADER ---- */
 
+header{
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    justify-content: space-between; /* Colocar nas extremidades */
+    align-items: center; /* Centraliza na vertical */
+    padding: 30px; /* Espaçamento interno */
+    border-bottom: 0.7px solid var(--color-gray-3); /* Borda iferior */
 }
 
 .container-nav-header{
-    display: flex;/* Para que o grupo fique ao lado do outro */
-    align-items: center;/* Centralizaando na vertical */
-    gap: 70px; /* Distancia entre os elementos */
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    align-items: center; /* Centraliza na vertical */
+    gap: 70px; /* Distância entre os elementos */
 }
 
-.navegation-header ul{/* So vai estlizar as tags ul que estiverem dentro de navegation-header */
-    display: flex;/* Para que o grupo fique ao lado do outro */
-    gap: 40px; /* Distancia entre os elementos */
-    list-style: none;/* Remova a bolinha */
+.navigation-header ul{ /* Só vai estilizar as tags <UL> que etiverem dentro de navigation-header */
+    display: flex;  /* Para que o grupo fique ao lado do outro */
+    gap: 40px; /* Distância entre os elementos */
+    list-style: none; /* Remove a bolinha */       
 }
 
-.navegation-header ul li a{
+.navigation-header ul li a{
     text-decoration: none; /* Decoração do texto */
-    color: var(--color-black);/*Cor do texto */
-    font-family: var(--font-family-primary);/* Familia da fonte */
+    color: var(--color-black); /* cor do texto */
+    font-family: var(--font-family-primary); /* Família da fonte */    
 }
 
-.navegation-header ul li .menu-active{
-    color: var(--color-blue);
+.navigation-header ul li .menu-active{
+    color: var(--color-blue); /* Cor do texto */
 }
 
 .btn-header{
-    font-family: var(--font-family-primary);
+    font-family: var(--font-family-primary); /* Altera a fonte */
+    text-decoration: none; /* Tira a decoração do texto */
+    background-color: var(--color-blue); /* Cor de fundo */
+    color: var(--color-white); /* Cor de texto */
+    border-radius: 10px; /* Arredondamento das bordas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-weight: var(--font-weight-button-); /* Espessura da fonte */
+}
+
+/* ---- MAIN ---- */
+
+main {
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    gap: 50px; /* Distância entre os elementos */
+    background-color: var(--color-blue-10); /* Cor de fundo */
+    padding: 50px 80px; /* Espaçamento interno */
+}
+
+.main-content {
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    flex-direction: column; /* Empilha os elementos na vertical */
+    gap: 30px; /* Distância entre os elementos */
+    width: 520px; /* Largura do container */
+}
+
+.main-content h1 {
+    font-size: var(--font-size-h1); /* Tamanho da fonte */
+    font-weight: var(--font-weight-h1); /* Espessura da fonte */
+    font-family: var(--font-family-primary-); /* Família da fonte */
+}
+
+.main-content h1 span {
+    font-family: var(--font-family-primary); /* Família da fonte */
+    color: var(--color-blue); /* Cor do texto em destaque */
+    font-weight: var(--font-weight-h1);
+
+}
+
+.main-content p {
+    font-family: var(--font-family-primary); /* Família da fonte */
+    color: var(--color-gray); /* Cor do texto */
+    line-height: 30px; /* Espaçamento entre as linhas */
+}
+
+.container-cta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary,   .btn-secondary{
+    padding: 8px 55px;
+    border-radius: 10px;
+    font-weight: var(--font-weight-button-);
     text-decoration: none;
+    font-family: var(--font-family-primary-);
+}
+
+.btn-primary{
     background-color: var(--color-blue);
     color: var(--color-white);
-    border-radius: 10px;
-    padding: 10px 20px;
-    font-weight: var(--font-weight-button-);
 }
+
+.btn-secondary{
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+}
+
