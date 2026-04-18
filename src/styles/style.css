@@ -1,2 +1,42 @@
 @import url("./global.css");
 
+header{
+    display: flex;/* Para que o grupo fique ao lado do outro*/
+    justify-content: space-between; /*Colocar nas extremidas*/
+    align-items: center; /* Centralizando na vertical*/
+    padding: 30px; /* Espaçamento interno*/
+    border-bottom: 0.7px solid var(--color-gray-3); /*Borda  inferior*/
+
+}
+
+.container-nav-header{
+    display: flex;/* Para que o grupo fique ao lado do outro */
+    align-items: center;/* Centralizaando na vertical */
+    gap: 70px; /* Distancia entre os elementos */
+}
+
+.navegation-header ul{/* So vai estlizar as tags ul que estiverem dentro de navegation-header */
+    display: flex;/* Para que o grupo fique ao lado do outro */
+    gap: 40px; /* Distancia entre os elementos */
+    list-style: none;/* Remova a bolinha */
+}
+
+.navegation-header ul li a{
+    text-decoration: none; /* Decoração do texto */
+    color: var(--color-black);/*Cor do texto */
+    font-family: var(--font-family-primary);/* Familia da fonte */
+}
+
+.navegation-header ul li .menu-active{
+    color: var(--color-blue);
+}
+
+.btn-header{
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: var(--font-weight-button-);
+}
