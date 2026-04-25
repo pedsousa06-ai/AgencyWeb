@@ -119,3 +119,34 @@ main {
 .btn-secondary:hover{
     background-color: #e6e6e6;
 }
+
+
+/* --- SERVICE ---*/
+
+.section-services{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, max-content);
+    gap: 25px;
+    padding: 30px 0;
+    border-bottom: 0.7px solid var(--color-gray-3);
+}
+
+.container-item-services{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-item-services h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h4);
+    font-size: var(--font-size-h4);
+}
+
+.container-item-services p{
+    font-family: var(--font-family-primary-);
+    color: var(--color-gray);
+    font-size: var(--font-size-caption);
+}
+
