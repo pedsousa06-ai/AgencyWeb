@@ -7,7 +7,7 @@ header{
     justify-content: space-between; /* Colocar nas extremidades */
     align-items: center; /* Centraliza na vertical */
     padding: 30px; /* Espaçamento interno */
-    border-bottom: 0.7px solid var(--color-gray-3); /* Borda iferior */
+    border-bottom: 0.7px solid var(--color-gray-3); /* Borda inferior */
 }
 
 .container-nav-header{
@@ -16,35 +16,35 @@ header{
     gap: 70px; /* Distância entre os elementos */
 }
 
-.navigation-header ul{ /* Só vai estilizar as tags <UL> que etiverem dentro de navigation-header */
-    display: flex;  /* Para que o grupo fique ao lado do outro */
+.navigation-header ul{ /* Só vai estilizar as tags <UL> que estiverem dentro de navigation-header */
+    display: flex; /* Para que o grupo fique ao lado do outro */
     gap: 40px; /* Distância entre os elementos */
-    list-style: none; /* Remove a bolinha */       
+    list-style: none; /* Remove a bolinha */
 }
 
 .navigation-header ul li a{
-    text-decoration: none; /* Decoração do texto */
-    color: var(--color-black); /* cor do texto */
-    font-family: var(--font-family-primary); /* Família da fonte */    
+    text-decoration: none; /* Remove a decoração do texto */
+    color: var(--color-black); /* Cor do texto */
+    font-family: var(--font-family-primary); /* Família da fonte */
 }
 
 .navigation-header ul li .menu-active{
-    color: var(--color-blue); /* Cor do texto */
+    color: var(--color-blue); /* Cor do texto ativo */
 }
 
 .btn-header{
-    font-family: var(--font-family-primary); /* Altera a fonte */
-    text-decoration: none; /* Tira a decoração do texto */
+    font-family: var(--font-family-primary); /* Família da fonte */
+    text-decoration: none; /* Remove a decoração do texto */
     background-color: var(--color-blue); /* Cor de fundo */
-    color: var(--color-white); /* Cor de texto */
+    color: var(--color-white); /* Cor do texto */
     border-radius: 10px; /* Arredondamento das bordas */
     padding: 10px 20px; /* Espaçamento interno */
-    font-weight: var(--font-weight-button-); /* Espessura da fonte */
-    transition: 0,3s;
+    font-weight: var(--font-weight-button); /* Espessura da fonte */
+    transition: 0.3s; /* Transição suave ao passar o mouse */
 }
 
 .btn-header:hover{
-    background-color: #005e89;
+    background-color: #005e89; /* Cor de fundo ao passar o mouse */
 }
 
 /* ---- MAIN ---- */
@@ -68,14 +68,13 @@ main {
 .main-content h1 {
     font-size: var(--font-size-h1); /* Tamanho da fonte */
     font-weight: var(--font-weight-h1); /* Espessura da fonte */
-    font-family: var(--font-family-primary-); /* Família da fonte */
+    font-family: var(--font-family-primary); /* Família da fonte */
 }
 
 .main-content h1 span {
     font-family: var(--font-family-primary); /* Família da fonte */
     color: var(--color-blue); /* Cor do texto em destaque */
-    font-weight: var(--font-weight-h1);
-
+    font-weight: var(--font-weight-h1); /* Espessura da fonte */
 }
 
 .main-content p {
@@ -85,68 +84,70 @@ main {
 }
 
 .container-cta{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    align-items: center; /* Centraliza na vertical */
+    gap: 10px; /* Distância entre os elementos */
 }
 
 .btn-primary, .btn-secondary{
-    padding: 8px 55px;
-    border-radius: 10px;
-    font-weight: var(--font-weight-button-);
-    text-decoration: none;
-    font-family: var(--font-family-primary-);
+    padding: 8px 55px; /* Espaçamento interno */
+    border-radius: 10px; /* Arredondamento das bordas */
+    font-weight: var(--font-weight-button); /* Espessura da fonte */
+    text-decoration: none; /* Remove a decoração do texto */
+    font-family: var(--font-family-primary); /* Família da fonte */
 }
 
 .btn-primary{
-    background-color: var(--color-blue);
-    color: var(--color-white);
-    transition: 0,3s;
+    background-color: var(--color-blue); /* Cor de fundo */
+    color: var(--color-white); /* Cor do texto */
+    transition: 0.3s; /* Transição suave ao passar o mouse */
 }
 
 .btn-primary:hover{
-    background-color: #005e89;
+    background-color: #005e89; /* Cor de fundo ao passar o mouse */
 }
 
-
 .btn-secondary{
-    background-color: var(--color-white);
-    color: var(--color-blue);
-    border: 1px solid var(--color-blue);
-    transition: 0,3;
+    background-color: var(--color-white); /* Cor de fundo */
+    color: var(--color-blue); /* Cor do texto */
+    border: 1px solid var(--color-blue); /* Borda com cor azul */
+    transition: 0.3s; /* Transição suave ao passar o mouse */
 }
 
 .btn-secondary:hover{
-    background-color: #e6e6e6;
+    background-color: #e6e6e6; /* Cor de fundo ao passar o mouse */
 }
 
-
-/* --- SERVICE ---*/
+/* --- SECTION SERVICES --- */
 
 .section-services{
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns: repeat(4, max-content);
-    gap: 25px;
-    padding: 30px 0;
-    border-bottom: 0.7px solid var(--color-gray-3);
+    display: grid; /* Define o layout em grade */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    grid-template-columns: repeat(4, max-content); /* Cria 4 colunas com tamanho automático */
+    gap: 25px; /* Distância entre os elementos */
+    padding: 30px 0; /* Espaçamento interno */
+    border-bottom: 0.7px solid var(--color-gray-3); /* Borda inferior */
 }
 
 .container-item-services{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    align-items: center; /* Centraliza na vertical */
+    gap: 15px; /* Distância entre os elementos */
 }
 
 .container-item-services h2{
-    font-family: var(--font-family-primary);
-    font-weight: var(--font-weight-h4);
-    font-size: var(--font-size-h4);
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-weight: var(--font-weight-h4); /* Espessura da fonte */
+    font-size: var(--font-size-h4); /* Tamanho da fonte */
 }
 
 .container-item-services p{
-    font-family: var(--font-family-primary-);
-    color: var(--color-gray);
-    font-size: var(--font-size-caption);
+    font-family: var(--font-family-primary); /* Família da fonte */
+    color: var(--color-gray); /* Cor do texto */
+    font-size: var(--font-size-caption); /* Tamanho da fonte */
 }
+
+/* --- SECTION DETAILS --- */
+
+
 
