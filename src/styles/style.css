@@ -40,6 +40,11 @@ header{
     border-radius: 10px; /* Arredondamento das bordas */
     padding: 10px 20px; /* Espaçamento interno */
     font-weight: var(--font-weight-button-); /* Espessura da fonte */
+    transition: 0,3s;
+}
+
+.btn-header:hover{
+    background-color: #005e89;
 }
 
 /* ---- MAIN ---- */
@@ -85,7 +90,7 @@ main {
     gap: 10px;
 }
 
-.btn-primary,   .btn-secondary{
+.btn-primary, .btn-secondary{
     padding: 8px 55px;
     border-radius: 10px;
     font-weight: var(--font-weight-button-);
@@ -96,11 +101,52 @@ main {
 .btn-primary{
     background-color: var(--color-blue);
     color: var(--color-white);
+    transition: 0,3s;
 }
+
+.btn-primary:hover{
+    background-color: #005e89;
+}
+
 
 .btn-secondary{
     background-color: var(--color-white);
     color: var(--color-blue);
     border: 1px solid var(--color-blue);
+    transition: 0,3;
+}
+
+.btn-secondary:hover{
+    background-color: #e6e6e6;
+}
+
+
+/* --- SERVICE ---*/
+
+.section-services{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, max-content);
+    gap: 25px;
+    padding: 30px 0;
+    border-bottom: 0.7px solid var(--color-gray-3);
+}
+
+.container-item-services{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-item-services h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h4);
+    font-size: var(--font-size-h4);
+}
+
+.container-item-services p{
+    font-family: var(--font-family-primary-);
+    color: var(--color-gray);
+    font-size: var(--font-size-caption);
 }
 
