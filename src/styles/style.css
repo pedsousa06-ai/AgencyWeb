@@ -410,7 +410,7 @@ main {
 
 footer {
     display: flex; /* Para que os elementos fiquem lado a lado */
-    justify-content: space-between; /* Distribui os elementos nas extremidades */
+    justify-content: space-around; /* Distribui os elementos nas extremidades */
     align-items: flex-start; /* Alinha os itens no topo */
     padding: 50px 80px; /* Espaçamento interno */
     border-top: 0.7px solid var(--color-gray-3); /* Borda superior */
