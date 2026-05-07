@@ -231,14 +231,15 @@ main {
     flex-direction: row-reverse;
 }
 
-/* --- SECTION BENEFIT --- */
-.section-benefit{
+/* ---- SECTION BENEFIT ---- */
+.section-benefit {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 80px;
 }
 
-.card-benefit{
+.card-benefit {
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -247,11 +248,70 @@ main {
     border-radius: 20px;
 }
 
-.card-benefit p{
+.card-benefit h2 {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
+    text-align: center;
+}
+
+.card-benefit p {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    text-align: center;
+    line-height: 27px;
     width: 458px;
 }
 
-.card-benefit-secondary{
+.card-benefit-secondary {
     background-color: #F4F4F4;
+}
 
+.card-benefit-secondary h2{
+    color: var(--color-black);
+}
+.card-benefit-secondary p {
+    color: var(--color-gray-2);
+}
+
+.card-benefit-secondary .btn-benefit {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: none;
+}
+
+.card-benefit-secondary .btn-benefit:hover {
+    background-color: #005e89;
+}
+
+.card-benefit-primary {
+    background-color: var(--color-blue);
+}
+
+.card-benefit-primary h2 {
+    color: var(--color-white);
+}
+
+.card-benefit-primary p {
+    color: var(--color-white);
+}
+
+.card-benefit-primary .btn-benefit {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: none;
+}
+
+.card-benefit-primary .btn-benefit:hover {
+    background-color: #e6e6e6;
+}
+
+.btn-benefit {
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-weight: var(--font-weight-button);
+    cursor: pointer;
+    transition: 0.3s;
 }
