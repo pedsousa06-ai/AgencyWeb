@@ -232,258 +232,269 @@ main {
 }
 
 /* ---- SECTION BENEFIT ---- */
+/* ---- SECTION BENEFIT ---- */
+
 .section-benefit {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 80px;
+    display: flex; /* Para que os elementos fiquem lado a lado */
+    justify-content: center; /* Centraliza os elementos na horizontal */
+    gap: 20px; /* Distância entre os elementos */
+    padding: 80px; /* Espaçamento interno */
 }
 
 .card-benefit {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    align-items: center;
-    padding: 60px 48px;
-    border-radius: 20px;
+    display: flex; /* Habilita o flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    gap: 35px; /* Distância entre os elementos */
+    align-items: center; /* Centraliza os elementos na horizontal */
+    padding: 60px 48px; /* Espaçamento interno */
+    border-radius: 20px; /* Arredondamento das bordas */
 }
 
 .card-benefit h2 {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-h3);
-    font-weight: var(--font-weight-h3);
-    text-align: center;
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-h3); /* Tamanho da fonte */
+    font-weight: var(--font-weight-h3); /* Espessura da fonte */
+    text-align: center; /* Centraliza o texto */
 }
 
 .card-benefit p {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-body);
-    text-align: center;
-    line-height: 27px;
-    width: 458px;
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-body); /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    line-height: 27px; /* Espaçamento entre linhas */
+    width: 458px; /* Largura do container */
 }
 
 .card-benefit-secondary {
-    background-color: #F4F4F4;
+    background-color: #F4F4F4; /* Cor de fundo */
 }
 
 .card-benefit-secondary h2{
-    color: var(--color-black);
+    color: var(--color-black); /* Cor do título */
 }
+
 .card-benefit-secondary p {
-    color: var(--color-gray-2);
+    color: var(--color-gray-2); /* Cor do texto */
 }
 
 .card-benefit-secondary .btn-benefit {
-    background-color: var(--color-blue);
-    color: var(--color-white);
-    border: none;
+    background-color: var(--color-blue); /* Cor de fundo */
+    color: var(--color-white); /* Cor do texto */
+    border: none; /* Remove a borda */
 }
 
 .card-benefit-secondary .btn-benefit:hover {
-    background-color: #005e89;
+    background-color: #005e89; /* Cor de fundo ao passar o mouse */
 }
 
 .card-benefit-primary {
-    background-color: var(--color-blue);
+    background-color: var(--color-blue); /* Cor de fundo */
 }
 
 .card-benefit-primary h2 {
-    color: var(--color-white);
+    color: var(--color-white); /* Cor do título */
 }
 
 .card-benefit-primary p {
-    color: var(--color-white);
+    color: var(--color-white); /* Cor do texto */
 }
 
 .card-benefit-primary .btn-benefit {
-    background-color: var(--color-white);
-    color: var(--color-blue);
-    border: none;
+    background-color: var(--color-white); /* Cor de fundo */
+    color: var(--color-blue); /* Cor do texto */
+    border: none; /* Remove a borda */
 }
 
 .card-benefit-primary .btn-benefit:hover {
-    background-color: #e6e6e6;
+    background-color: #e6e6e6; /* Cor de fundo ao passar o mouse */
 }
 
 .btn-benefit {
-    font-family: var(--font-family-primary);
-    text-decoration: none;
-    border-radius: 10px;
-    padding: 10px 40px;
-    font-weight: var(--font-weight-button);
-    cursor: pointer;
-    transition: 0.3s;
+    font-family: var(--font-family-primary); /* Família da fonte */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 10px; /* Arredondamento das bordas */
+    padding: 10px 40px; /* Espaçamento interno */
+    font-weight: var(--font-weight-button); /* Espessura da fonte */
+    cursor: pointer; /* Cursor de clique */
+    transition: 0.3s; /* Transição suave */
 }
 
 /* ---- SECTION COMPANIES ---- */
+
 .section-companies {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    padding: 60px 80px;
-    border-bottom: 0.7px solid var(--color-gray-3);
+    display: flex; /* Habilita o flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Centraliza os elementos */
+    gap: 40px; /* Distância entre os elementos */
+    padding: 60px 80px; /* Espaçamento interno */
+    border-bottom: 0.7px solid var(--color-gray-3); /* Borda inferior */
 }
 
 .companies-title {
-    font-family: var(--font-family-primary);
-    font-weight: var(--font-weight-h4);
-    font-size: var(--font-size-h4);
-    color: var(--color-black);
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-weight: var(--font-weight-h4); /* Espessura da fonte */
+    font-size: var(--font-size-h4); /* Tamanho da fonte */
+    color: var(--color-black); /* Cor do texto */
 }
 
 .container-companies {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
+    display: flex; /* Habilita o flexbox */
+    justify-content: center; /* Centraliza os elementos */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    gap: 60px; /* Distância entre os elementos */
 }
 
 /* ---- SECTION NEWSLETTER ---- */
-/* ---- SECTION NEWSLETTER ---- */
+
 .section-newsletter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-blue-10);
-    padding: 80px;
+    display: flex; /* Habilita o flexbox */
+    justify-content: center; /* Centraliza os elementos */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    background-color: var(--color-blue-10); /* Cor de fundo */
+    padding: 80px; /* Espaçamento interno */
 }
-
+ 
 .newsletter-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    text-align: center;
+    display: flex; /* Habilita o flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Centraliza os elementos */
+    gap: 40px; /* Distância entre os elementos */
+    text-align: center; /* Centraliza o texto */
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 600px; /* Largura máxima do container */
 }
-
+ 
 .newsletter-content h2 {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-h2);
-    font-weight: var(--font-weight-h2);
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-h2); /* Tamanho da fonte */
+    font-weight: var(--font-weight-h2); /* Espessura da fonte */
+    outline: none; /* Remove contorno */
 }
-
+ 
 .container-newsletter-form {
-    display: flex;
-    align-items: center;
+    display: flex; /* Habilita o flexbox */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    width: 100%; /* Ocupa toda a largura */
 }
-
+ 
 .input-newsletter {
-    padding: 14px 20px;
-    border: 1px solid var(--color-gray-3);
-    border-radius: 10px 0 0 10px;
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-body);
-    color: var(--color-gray);
-    outline: none;
-    width: 320px;
-    background-color: var(--color-white);
+    padding: 14px 20px; /* Espaçamento interno */
+    border: 1px solid var(--color-gray-3); /* Borda do input */
+    border-radius: 10px; /* Arredondamento das bordas */
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-body); /* Tamanho da fonte */
+    color: var(--color-gray); /* Cor do texto */
+    outline: none; /* Remove contorno */
+    flex: 1; /* Faz o input crescer */
+    background-color: var(--color-white); /* Cor de fundo */
 }
-
+ 
 .btn-newsletter {
-    padding: 14px 28px;
-    background-color: var(--color-blue);
-    color: var(--color-white);
-    font-family: var(--font-family-primary);
-    font-weight: var(--font-weight-button);
-    border: none;
-    border-radius: 0 10px 10px 0;
-    cursor: pointer;
-    transition: 0.3s;
+    padding: 17px 28px; /* Espaçamento interno */
+    margin: 14px; /* Margem externa */
+    background-color: var(--color-black); /* Cor de fundo */
+    color: var(--color-white); /* Cor do texto */
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-weight: var(--font-weight-button); /* Espessura da fonte */
+    border: none; /* Remove a borda */
+    border-radius: 10px; /* Arredondamento das bordas */
+    cursor: pointer; /* Cursor de clique */
+    transition: 0.3s; /* Transição suave */
+    white-space: nowrap; /* Evita quebra de texto */
 }
-
+ 
 .btn-newsletter:hover {
-    background-color: #005e89;
+    background-color: #005e89; /* Cor de fundo ao passar o mouse */
 }
 /* ---- FOOTER ---- */
+
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 50px 80px;
-    border-top: 0.7px solid var(--color-gray-3);
-    gap: 40px;
+    display: flex; /* Para que os elementos fiquem lado a lado */
+    justify-content: space-between; /* Distribui os elementos nas extremidades */
+    align-items: flex-start; /* Alinha os itens no topo */
+    padding: 50px 80px; /* Espaçamento interno */
+    border-top: 0.7px solid var(--color-gray-3); /* Borda superior */
+    gap: 40px; /* Distância entre os elementos */
 }
 
 .footer-brand {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 220px;
+    display: flex; /* Habilita o flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    gap: 15px; /* Distância entre os elementos */
+    max-width: 220px; /* Largura máxima do container */
 }
 
 .footer-brand p {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-caption);
-    color: var(--color-gray-2);
-    line-height: 22px;
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-caption); /* Tamanho da fonte */
+    color: var(--color-gray-2); /* Cor do texto */
+    line-height: 22px; /* Espaçamento entre linhas */
 }
 
 .footer-brand span {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-caption);
-    color: var(--color-gray-2);
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-caption); /* Tamanho da fonte */
+    color: var(--color-gray-2); /* Cor do texto */
 }
 
 .footer-nav,
 .footer-contact {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    display: flex; /* Habilita o flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    gap: 20px; /* Distância entre os elementos */
 }
 
 .footer-nav h3,
 .footer-contact h3 {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-body);
-    font-weight: var(--font-weight-h4);
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-body); /* Tamanho da fonte */
+    font-weight: var(--font-weight-h4); /* Espessura da fonte */
 }
 
 .footer-nav ul,
 .footer-contact ul {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    list-style: none;
+    display: flex; /* Habilita o flexbox */
+    flex-direction: column; /* Organiza os itens em coluna */
+    gap: 12px; /* Distância entre os itens */
+    list-style: none; /* Remove as bolinhas da lista */
 }
 
 .footer-nav ul li a {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-caption);
-    color: var(--color-gray-2);
-    text-decoration: none;
-    transition: 0.3s;
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-caption); /* Tamanho da fonte */
+    color: var(--color-gray-2); /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: 0.3s; /* Transição suave */
 }
 
 .footer-nav ul li a:hover {
-    color: var(--color-blue);
+    color: var(--color-blue); /* Cor do texto ao passar o mouse */
 }
 
 .footer-contact ul li {
-    font-family: var(--font-family-primary);
-    font-size: var(--font-size-caption);
-    color: var(--color-gray-2);
+    font-family: var(--font-family-primary); /* Família da fonte */
+    font-size: var(--font-size-caption); /* Tamanho da fonte */
+    color: var(--color-gray-2); /* Cor do texto */
 }
 
 .footer-social {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
+    display: flex; /* Habilita o flexbox */
+    gap: 12px; /* Distância entre os ícones */
+    align-items: flex-start; /* Alinha os itens no topo */
 }
 
 .social-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    border: 1px solid var(--color-gray-3);
-    transition: 0.3s;
+    display: flex; /* Habilita o flexbox */
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    width: 38px; /* Largura do ícone */
+    height: 38px; /* Altura do ícone */
+    border-radius: 50%; /* Deixa o elemento redondo */
+    border: 1px solid var(--color-gray-3); /* Borda do ícone */
+    transition: 0.3s; /* Transição suave */
 }
 
 .social-icon:hover {
-    border-color: var(--color-blue);
-    background-color: var(--color-blue-10);
+    border-color: var(--color-blue); /* Cor da borda ao passar o mouse */
+    background-color: var(--color-blue-10); /* Cor de fundo ao passar o mouse */
 }
