@@ -339,3 +339,61 @@ main {
     align-items: center;
     gap: 60px;
 }
+
+/* ---- SECTION NEWSLETTER ---- */
+/* ---- SECTION NEWSLETTER ---- */
+.section-newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue-10);
+    padding: 80px;
+}
+
+.newsletter-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.newsletter-content h2 {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+}
+
+.container-newsletter-form {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.input-newsletter {
+    padding: 14px 20px;
+    border: 1px solid var(--color-gray-3);
+    border-radius: 10px;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-gray);
+    outline: none;
+    width: 520px;
+    background-color: var(--color-white);
+}
+
+.btn-newsletter {
+    padding: 18px 40px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-button);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-newsletter:hover {
+    background-color: #333333;
+}
