@@ -83,15 +83,10 @@ Um editor para trabalhar com o código como [VSCode](https://code.visualstudio.c
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Front-End**  ([ReactJS](https://reactjs.org/)) 
+#### **Front-End**  
 
 -   ***Html***
 -   ***Css***
-
-#### **Prototipação** ([Figma](https://www.figma.com/))
-
-9
-
 ---
 
 <!-- ---------------------------------------------------------------------- -->
