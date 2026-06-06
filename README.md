@@ -115,8 +115,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://www.linkedin.com/in/pedro-sousa-gomes/">
 Pedro Sousa</a>
  <br />
- 
-[![Gmail](gmail.pedsousa06@gmail.com)
 
 ---
 
